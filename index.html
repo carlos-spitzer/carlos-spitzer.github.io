@@ -663,7 +663,7 @@ body.js .rev.in{opacity:1;transform:none;transition:opacity .7s var(--ease) var(
         <div class="mini-list">
           <article class="mini-card">
             <span class="ic-circle"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-ball"/></svg></span>
-            <div><h3>Basketball</h3><p>Forward from 10 to 22 (great shooter, honest about defense). Idols: Jordan, Kobe, Curry.</p></div>
+            <div><h3>Basketball</h3><p>Forward from 10 to 22 (good shooter, defense meh...). Idols: Jordan, Kobe, Curry.</p></div>
           </article>
           <article class="mini-card">
             <span class="ic-circle"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-yin"/></svg></span>
@@ -671,7 +671,7 @@ body.js .rev.in{opacity:1;transform:none;transition:opacity .7s var(--ease) var(
           </article>
           <article class="mini-card">
             <span class="ic-circle"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-mug"/></svg></span>
-            <div><h3>Espresso</h3><p>DeLonghi La Specialista, manual milk steaming, dialing in every shot.</p></div>
+            <div><h3>Espresso</h3><p>DeLonghi La Specialista, manual milk steaming, enjoying every shot.</p></div>
           </article>
           <article class="mini-card">
             <span class="ic-circle"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-music"/></svg></span>
@@ -725,6 +725,12 @@ body.js .rev.in{opacity:1;transform:none;transition:opacity .7s var(--ease) var(
   <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="3.5" fill="#fff" stroke="none"/><rect x="5" y="9.4" width="3" height="9.1" fill="#141414" stroke="none"/><circle cx="6.5" cy="6.3" r="1.85" fill="#141414" stroke="none"/><path fill="#141414" stroke="none" d="M10 9.4h2.88v1.25h.04c.42-.76 1.45-1.56 2.98-1.56 3.18 0 3.77 2 3.77 4.62v4.74h-3v-4.2c0-1-.02-2.29-1.42-2.29-1.42 0-1.64 1.09-1.64 2.22v4.27H10z"/></symbol>
   <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 8.5h10a4 4 0 0 1 4 4l-.55 4.1A2.45 2.45 0 0 1 18 18.7c-1.35 0-2.05-1.5-3.3-1.5H9.3C8.05 17.2 7.35 18.7 6 18.7a2.45 2.45 0 0 1-2.45-2.1L3 12.5a4 4 0 0 1 4-4z"/><path d="M7.4 11.8v2.5M6.15 13.05h2.5"/><circle cx="15.4" cy="12" r=".75"/><circle cx="17.5" cy="14" r=".75"/></symbol>
 </svg>
+
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button id="lb-close" aria-label="Close">✕</button>
+  <img id="lb-img" src="" alt="">
+  <span id="lb-cap"></span>
+</div>
 
 <script>
 (function(){
@@ -844,11 +850,5 @@ revEls.forEach(function(el){
 })();
 
 </script>
-
-<div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
-  <button id="lb-close" aria-label="Close">✕</button>
-  <img id="lb-img" src="" alt="">
-  <span id="lb-cap"></span>
-</div>
 </body>
 </html>
